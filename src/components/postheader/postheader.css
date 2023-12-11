@@ -1,0 +1,46 @@
+.post-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+.heading{
+    color: grey;
+    margin-bottom: 15px;
+    border-bottom: 1px solid #0A66C2;
+}
+
+.post-info{
+    width: 90%;
+    display: flex;
+    border-bottom: 1px solid #0A66C2;
+    justify-content: space-between;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+}
+
+.details{
+    width: 70%;
+    display: flex;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.name{
+    color: black;
+    font-weight: bold;
+}
+
+.designation{
+    color: grey;
+}
+
+.time{
+    color: grey;
+    width: 5%;
+}
+

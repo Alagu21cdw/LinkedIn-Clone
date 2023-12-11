@@ -1,0 +1,21 @@
+.search {
+    background-color: #EEF1F4;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+  }
+  
+  .fa-magnifying-glass {
+    color: #C3C4C3;
+    padding: 10px;
+    font-size: 30px;
+    background-color: #EEF1F4;
+    border-radius: 0px 5px 5px 0px;
+  }
+  
+  .searchbar {
+    display: flex;
+  }
+  

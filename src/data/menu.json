@@ -1,0 +1,18 @@
+{
+    "menu": [
+        { "Home": [] },
+        { "Profile": ["My profile","Edit profile","Analytics","Post","Article","Post","Articles","Documents"] },
+        { "Jobs": ["Job Searching","Favourites","Responses","Job alerts"] },
+        { "Network": ["Connections","Requests","Add contacts"] },
+        { "Interests": ["My groups","Events","Companies","Studying"] },
+        { "Messages": [] },
+        { "For Bussiness": [] },
+        { "Premium": [] },
+        { "Settings": [] },
+        { "Language": [] },
+        { "Help": [] },
+        { "☼": [] },
+        { "Sign out": [] }
+]
+
+}
