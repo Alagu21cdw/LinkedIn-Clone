@@ -19,11 +19,10 @@ export const createHamburger = () => {
     hamburger.appendChild(line2);
     hamburger.appendChild(line3);
     const sidenavbar = showMenu();
-    hamburger.addEventListener('click',(event) => {
+    hamburger.addEventListener('click',() => {
         line2.classList.toggle('line2');
         line3.classList.toggle('line3');
         sidenavbar.classList.toggle('hide');
-
     })
     wrapperDiv.appendChild(hamburger);
     wrapperDiv.appendChild(title);

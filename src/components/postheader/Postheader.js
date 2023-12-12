@@ -7,8 +7,12 @@ export const createPostheader = ({content}) => {
     {
         const heading = document.createElement('h1');
         heading.className = 'heading';
-        heading.innerText = 'About';
+        heading.innerText = content;
+        const plus = document.createElement('h1');
+        plus.className = 'plus';
+        plus.innerText = '+';
         postHeader.appendChild(heading);
+        postHeader.appendChild(plus);
         return postHeader;
     } else {
         
@@ -18,10 +22,10 @@ export const createPostheader = ({content}) => {
         info.className = 'info';
         const name = document.createElement('div');
         name.className = 'name';
-        name.innerText = 'Alagu';
+        name.innerText = content.name;
         const designation = document.createElement('div');
         designation.className = 'designation';
-        designation.innerText = 'backend developer';
+        designation.innerText = content.designation;
         info.appendChild(name);
         info.appendChild(designation);
         const details = document.createElement('div');
@@ -31,7 +35,7 @@ export const createPostheader = ({content}) => {
 
         const time = document.createElement('div');
         time.className = 'time';
-        time.innerText = '1 min';
+        time.innerText = content.time;
         postInfo.appendChild(details);
         postInfo.appendChild(time);
         const more = document.createElement('i');

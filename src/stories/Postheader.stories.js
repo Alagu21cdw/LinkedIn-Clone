@@ -7,14 +7,14 @@ export default {
       return createPostheader({  ...args });
     },
     argTypes: {
-      path: { control: 'text' }
+      // path: { control: 'text' }
     },
   };
 
   export const post = {
     args: {
         content: {
-            name: 'Alagu',
+            name: 'Bala',
             designation: 'Backend developer',
             time: '1 min'
         }

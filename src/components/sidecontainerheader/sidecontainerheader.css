@@ -1,0 +1,10 @@
+.side-header{
+    display: flex;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 3px solid #EEF1F4;
+}
+
+.side-title{
+    font-size: 20px;
+}

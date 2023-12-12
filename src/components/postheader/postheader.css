@@ -5,13 +5,15 @@
 }
 
 .heading{
-    color: grey;
+    color: #b8b8b8;
+    font-size: 35px;
     margin-bottom: 15px;
     border-bottom: 1px solid #0A66C2;
+    width: 98%;
 }
 
 .post-info{
-    width: 90%;
+    width: 98%;
     display: flex;
     border-bottom: 1px solid #0A66C2;
     justify-content: space-between;
@@ -21,6 +23,7 @@
     display: flex;
     flex-direction: column;
     padding: 8px;
+    width: 100%;
 }
 
 .details{
@@ -28,6 +31,11 @@
     display: flex;
     gap: 5px;
     margin-bottom: 15px;
+}
+
+.age{
+    color: black;
+    font-size: 10px;
 }
 
 .name{
@@ -41,6 +49,23 @@
 
 .time{
     color: grey;
-    width: 5%;
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fa-ellipsis-vertical{
+    color: grey;
+    font-size: 23px;
+}
+
+.plus{
+    color: grey;
+    font-size: 23px;
+    font-size: 50px;
+    font-weight: lighter;
+    position: relative;
+    top: 10px;
+    left: 16px;
 }
 

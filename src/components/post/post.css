@@ -1,3 +1,79 @@
 .post-container{
-    background-image: linear-gradient(#C3C4C3, #EEF1F4);
+    background-image: linear-gradient(#EEF1F4, #FFFFFF);
+    width: 100%;
+    padding: 20px 40px;
+    height: 300px;
+}
+
+.box{
+    width: 98%;
+    display: flex;
+    flex-direction: column;
+    margin-top: 35px;
+    gap: 10px;
+    position: relative;
+}
+
+.text{
+    color: grey;
+}
+
+.tags{
+    color: #b8b8b8;
+    margin-top: 20px;
+}
+
+.post-image{
+    margin-top: 10px;
+    height: 323px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-between;
+    width: 98%;
+    margin-top: 20px;
+}
+
+.right{
+    display: flex;
+    width: 20%;
+    gap: 40px;
+}
+
+.info{
+    display: flex;
+    flex-direction: column;
+}
+
+.post-icon{
+    color: grey;
+    font-size: 30px;
+}
+
+.count{
+    color: grey;
+    font-size: 12px;
+    text-align: center;
+    
+}
+
+.blue{
+    color: #0A66C2;
+}
+
+.input{
+    border: none;
+    background: none;
+    overflow: auto;
+    outline: none;
+    resize: none; 
+    font-size: 20px;
+}
+
+.clip{
+    position: absolute;
+    right: -30px;
+    font-size: 24px;
+    color: rgb(100, 100, 100);
 }
