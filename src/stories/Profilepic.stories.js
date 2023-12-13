@@ -4,8 +4,8 @@ import { createProfilepic } from "../components/profilepic/Profilepic.js";
 export default {
     title: 'LinkedIn/Profilepic',
     tags: ['autodocs'],
-    render: ({ label, ...args }) => {
-      return createProfilepic({ label, ...args });
+    render: ({ ...args }) => {
+      return createProfilepic({ ...args });
     },
     argTypes: {
       path: { control: 'text' }

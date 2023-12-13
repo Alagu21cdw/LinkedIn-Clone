@@ -2,7 +2,22 @@
     background-image: linear-gradient(#EEF1F4, #FFFFFF);
     width: 100%;
     padding: 20px 40px;
-    height: 300px;
+    padding-left: 60px;
+    height: fit-content;
+    margin-bottom: 30px;
+    border-radius: 4px;
+    position: relative;
+}
+
+.feature-wrapper{
+    width: 97%;
+    overflow: auto;
+    white-space: nowrap;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    
 }
 
 .box{
@@ -76,4 +91,20 @@
     right: -30px;
     font-size: 24px;
     color: rgb(100, 100, 100);
+}
+
+.right-arrow{
+    position: absolute;
+    font-size: 24px;
+    color: rgb(100, 100, 100);
+    transform: rotate(-90deg);
+    right: 27px;
+    top: 174px;
+}
+
+.para-container{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    margin-top: 25px;
 }

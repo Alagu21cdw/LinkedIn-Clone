@@ -1,4 +1,4 @@
-import ProfilepicStories, { sea } from "../../stories/Profilepic.stories.js";
+import ProfilepicStories from "../../stories/Profilepic.stories.js";
 
 export const createPostheader = ({content}) => {
     const postHeader = document.createElement('div');
@@ -8,9 +8,13 @@ export const createPostheader = ({content}) => {
         const heading = document.createElement('h1');
         heading.className = 'heading';
         heading.innerText = content;
-        const plus = document.createElement('h1');
+        let plus = document.createElement('h1');
         plus.className = 'plus';
         plus.innerText = '+';
+        if(content == 'About') {
+            plus = document.createElement('i');
+            plus.className = 'fa fa-solid fa-pen plus';
+        }
         postHeader.appendChild(heading);
         postHeader.appendChild(plus);
         return postHeader;
@@ -30,7 +34,7 @@ export const createPostheader = ({content}) => {
         info.appendChild(designation);
         const details = document.createElement('div');
         details.className = 'details';
-        details.appendChild(ProfilepicStories.render(sea.args));
+        details.appendChild(ProfilepicStories.render(content));
         details.appendChild(info);
 
         const time = document.createElement('div');

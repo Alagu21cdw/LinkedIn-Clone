@@ -1,4 +1,6 @@
-import PostHeaderStories, {post} from "../../stories/Postheader.stories.js";
+import FeatureimageStories from "../../stories/Featureimage.stories.js";
+import ParaStories from "../../stories/Para.stories.js";
+import PostHeaderStories from "../../stories/Postheader.stories.js";
 
 
 export const createPost = ({bodycontent,type}) => 
@@ -8,6 +10,28 @@ export const createPost = ({bodycontent,type}) =>
     postContainer.appendChild(PostHeaderStories.render(bodycontent));
     const body = document.createElement('div');
     body.className = 'box';
+    if(type == 'about') {
+        const text = document.createElement('p');
+        text.className = 'text';
+        text.innerText = bodycontent.text;
+        body.appendChild(text);
+        postContainer.appendChild(body);
+        return postContainer;
+    }
+    if(type == 'feature') {
+        const featureContainer = document.createElement('div')
+        featureContainer.className = 'feature-wrapper';
+        const imagearr = bodycontent.featureImage;
+        for(let i=0;i<imagearr.length;i++) {
+            featureContainer.appendChild(FeatureimageStories.render(imagearr[i]))
+        }
+        const clip = document.createElement('i');
+        clip.className = 'fa fa-solid fa-angle-down right-arrow';
+        postContainer.appendChild(featureContainer);
+        postContainer.appendChild(clip);
+        return postContainer;
+
+    }
     if(type == 'newpost') {
         const input = document.createElement('textarea');
         input.className = 'input';
@@ -20,11 +44,22 @@ export const createPost = ({bodycontent,type}) =>
         return postContainer;
 
     }
+    if(type == 'para')
+    {
+        const paraContainer = document.createElement('div');
+        paraContainer.className = 'para-container';
+        const paraArr = bodycontent.paraContent;
+        for(let i=0;i<paraArr.length;i++) {
+            console.log(paraArr);
+            paraContainer.appendChild(ParaStories.render(paraArr[i]))
+        }
+        postContainer.appendChild(paraContainer);
+        return postContainer;
+    }
     if(type == 'post') {
         
         const text = document.createElement('p');
         text.className = 'text';
-        console.log(bodycontent.text);
         text.innerText = bodycontent.text;
         const tags = document.createElement('div');
         tags.className = 'tags'

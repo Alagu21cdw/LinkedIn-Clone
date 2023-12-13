@@ -1,0 +1,50 @@
+.para{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    position: relative;
+}
+
+.para-header{
+    display: flex;
+    flex-direction: column;
+}
+
+.para-title{
+    font-size: 23px;
+    color: #0A66C2;
+}
+
+.para-location{
+    font-size: 23px;
+    color: grey;
+}
+
+.para-body{
+    display: flex;
+    justify-content: space-between;
+    gap: 46px;
+}
+
+.para-left{
+    color: #bebebe;
+    font-size: 10px;
+    width: 37%;
+}
+
+.para-content{
+    color: grey;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.pen{
+    position: absolute;
+    color: grey;
+    right: -8px;
+    top: 5px;
+}
+
+.para-hide{
+    visibility: hidden;
+}

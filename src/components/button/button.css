@@ -1,0 +1,29 @@
+.button{
+    width: 100%;
+}
+
+.hallow{
+    color: #0A66C2;
+    border: 2px solid #0A66C2;
+    border-radius:2px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.normal{
+    background-color: #0A66C2;
+    color: white;
+    border: none;
+}
+
+.small{
+    padding: 5px;
+
+}
+
+.big{
+    padding: 15px 0px;
+    font-size: 20px;
+    border-radius: 4px;
+    font-weight: bold;
+}

@@ -1,0 +1,38 @@
+.info-snippet{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.common-info{
+    width: 100%;
+    padding: 3px;
+}
+
+.left{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+}
+
+.info-name{
+    font-size: 15px;
+}
+
+.connect{
+    width: 100px;
+}
+
+.info-description{
+    font-size: 13px;
+    color: grey;
+}
+
+.info-location{
+    font-size: 10px;
+    color: #bfbfbf;
+}
+
+

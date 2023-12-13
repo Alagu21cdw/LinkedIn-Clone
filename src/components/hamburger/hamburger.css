@@ -25,6 +25,7 @@ ul{
     font-size: 16px;
     color: grey;
     margin: 8px 0px;
+    cursor: pointer;
 }
 
 li{
@@ -33,6 +34,11 @@ li{
     list-style-type: none;
     margin: 8px;
     margin-left: 14px;
+    cursor: pointer;
+}
+
+li:hover,ul:hover{
+    color: #0A66C2;
 }
 
 .hide{
@@ -48,7 +54,7 @@ li{
 .outter{
     display: flex;
     flex-direction: column;
-    width: 7%;
+    width: 46%;
     margin-left: 80px;
 }
 

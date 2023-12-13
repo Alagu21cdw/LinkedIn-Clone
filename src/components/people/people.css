@@ -1,0 +1,48 @@
+.recommendations{
+    display: flex;
+    justify-content: space-between;
+    color: grey;
+    align-items: center;
+    margin: 10px 0px;
+}
+
+.show-more{
+
+    font-size: 22px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.arrow{
+
+    font-size: 28px;
+}
+
+.premium-text{
+    color: #0A66C2;
+    font-size: 17px;
+    font-weight: 400;
+    width: 81%;
+    margin-left: 10px;
+}
+
+.premium-button{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.hidesnippet{
+    display: none;
+}
+
+.showsnippet{
+    display: flex;
+}
+
+.invert{
+    transform: rotate(180deg);
+}
+
+.container{
+    height: fit-content;
+}

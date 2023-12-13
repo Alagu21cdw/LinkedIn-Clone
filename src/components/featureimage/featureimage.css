@@ -1,0 +1,31 @@
+.image-container{
+    width: 25%;
+    background-color: rgb(239, 241, 244);
+    border-radius: 5px;
+}
+
+.feature-image{
+
+    height: 159px;
+    width: 236px;
+    object-fit: contain;
+    border-radius: 5px;
+}
+
+.image-title{
+    font-size: 18px;
+    margin-left: 8px;
+    color: #0A66C2;
+    margin-top: 3px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.image-description{
+    font-size: 14px;
+    margin-left: 8px;
+    color: grey;
+    margin-top: 5px;
+    margin-bottom: 3px;
+}

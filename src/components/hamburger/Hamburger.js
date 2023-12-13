@@ -1,5 +1,5 @@
 
-export const createHamburger = () => {
+export const createHamburger = ({navtitle}) => {
     const outterDiv = document.createElement('div');
     outterDiv.className = 'outter';
     const hamburger = document.createElement('div');
@@ -7,7 +7,7 @@ export const createHamburger = () => {
     const wrapperDiv = document.createElement('div');
     wrapperDiv.className = 'wrapper';
     title.className = 'title';
-    title.innerText = 'Profile';
+    title.innerText = navtitle;
     hamburger.className = 'hamburger';
     const line = document.createElement('div');
     const line2 = document.createElement('div');
