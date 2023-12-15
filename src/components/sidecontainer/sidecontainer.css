@@ -1,0 +1,36 @@
+.side-container{
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.graph{
+    object-fit: fill;
+    width: 100%;
+}
+
+.numbers{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 35px;
+    margin-bottom: 45px;
+}
+
+.posts{
+
+    width: 50%;
+    border-right: 1px solid #c3c4c3;
+}
+
+.views{
+
+    width: 50%;
+    border-left: 1px solid #c3c4c3;
+}
+
+.snip-wrapper{
+
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px;
+    margin-top: 35px;
+}

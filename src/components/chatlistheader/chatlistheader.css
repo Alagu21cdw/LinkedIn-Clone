@@ -1,0 +1,42 @@
+.chat-list-header{
+
+    display: flex;
+    align-items: center;
+    gap: 33px;
+    border-bottom: 1px solid #c3c4c3;
+    width: 94%;
+    justify-content: space-between;
+    padding-bottom: 1.6rem;
+}
+
+.chat-search{
+
+    display: flex;
+}
+
+.chat-searchbar{
+    background-color: #EEF1F4;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 100%;
+    padding: 10px;
+    font-size: 30px;
+    padding-bottom: 10px;
+
+}
+
+.chat-searchbar::placeholder{
+    font-size: 1.5rem;
+}
+
+.chat-magnify{
+
+
+    border-radius: 5px 0px 0px 5px;
+}
+
+.chat-edit{
+    font-size: 1.6rem;
+    color: grey;
+
+}

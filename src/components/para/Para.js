@@ -1,7 +1,12 @@
+import { HOME } from "../../constants/Home.constants.js";
 
 
 
-
+/**
+ * creating para
+ * @param {} param0 
+ * @returns 
+ */
 export const createPara = ({para}) => {
     const paraElement = document.createElement('div');
     paraElement.className = 'para';
@@ -26,8 +31,8 @@ export const createPara = ({para}) => {
     to.className = 'para-to';
     to.innerText = para.to;
     if(from.innerText == '') {
-        from.innerText = "21.02.2000";
-        to.innerText = "present";
+        from.innerText = HOME.DATE;
+        to.innerText = HOME.DATE;
         paraLeft.classList.add('para-hide');
     }
     paraLeft.appendChild(to);
@@ -37,7 +42,7 @@ export const createPara = ({para}) => {
     paraContent.innerText = para.content;
     let pen = document.createElement('h1');
     pen = document.createElement('i');
-    pen.className = 'fa fa-solid fa-pen pen';
+    pen.className = 'fa fa-solid fa-pen post-pen pen';
     paraElement.appendChild(pen);
     paraBody.appendChild(paraLeft);
     paraBody.appendChild(paraContent);

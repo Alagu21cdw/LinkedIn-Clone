@@ -1,9 +1,13 @@
+import { HOME } from "../../constants/Home.constants.js";
 import ButtonStories, { normal } from "../../stories/Button.stories.js";
 import InfoStories, {people as peopleInfo} from "../../stories/Info.stories.js";
 import SidecontainerheaderStories, { people } from "../../stories/Sidecontainerheader.stories.js";
 
 
-
+/**
+ * creating people
+ * @returns 
+ */
 export const createPeople = () => {
 
     const peopleContainer = document.createElement('div');
@@ -16,7 +20,7 @@ export const createPeople = () => {
     recommendations.className = 'recommendations'
     const showMore = document.createElement('h1');
     showMore.className = 'show-more';
-    showMore.innerText = 'View all recommendations';
+    showMore.innerText = HOME.VIEWALL;
     const arrow = document.createElement('i');
     arrow.className = 'fa-solid fa-angle-down arrow';
     recommendations.appendChild(showMore);
@@ -30,10 +34,10 @@ export const createPeople = () => {
             infoarr[i].classList.toggle('showsnippet')
         }
         arrow.classList.toggle('invert');
-        if(showMore.innerText == 'View all recommendations') {
-            showMore.innerText = 'View less recommendations';
+        if(showMore.innerText == HOME.VIEWALL) {
+            showMore.innerText = HOME.VIEWLESS;
         } else  {
-            showMore.innerText = 'View all recommendations';
+            showMore.innerText = HOME.VIEWALL;
         }
     })
     const premiumBtn = ButtonStories.render(normal.args);
@@ -42,7 +46,7 @@ export const createPeople = () => {
     const premiumText = document.createElement('h1');
     premiumText.className = 'premium-text';
     getinfoSnippet();
-    premiumText.innerText = 'See who\'s viewed your profile in the last 90 days';
+    premiumText.innerText = HOME.PROFILETEXT;
     peopleContainer.appendChild(premiumText);
     return peopleContainer;
 }

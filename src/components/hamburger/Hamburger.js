@@ -1,4 +1,8 @@
-
+/**
+ * creating hamburger
+ * @param {*} param0 
+ * @returns 
+ */
 export const createHamburger = ({navtitle}) => {
     const outterDiv = document.createElement('div');
     outterDiv.className = 'outter';
@@ -50,18 +54,6 @@ function showMenu(){
             sideNav.appendChild(menu);
         }
     });
-    
-    
-    
-    // const listItem = document.createElement('li');
-    // listItem.innerText = 'My profile';
-    // const listItem2 = document.createElement('li');
-    // listItem2.innerText = 'Edit profile';
-    // const listItem3 = document.createElement('li');
-    // listItem3.innerText = 'Analytics';
-    // menu2.appendChild(listItem);
-    // menu2.appendChild(listItem2);
-    // menu2.appendChild(listItem3);
     sideNav.classList.add('hide');
     return sideNav;
 

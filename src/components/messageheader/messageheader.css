@@ -1,0 +1,87 @@
+.message-header{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+    height: 5rem;
+    margin-left: 5px;
+    padding: 0px 22px;
+    border-bottom: 1px solid #c3c4c3;
+}
+
+
+.chat-common-info{
+    width: 100%;
+    position: relative;
+}
+
+.left{
+    display: flex;
+    width: 80%;
+    gap: 20px;
+    align-items: center;
+}
+
+.chat-info-name{
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.connect{
+    width: 100px;
+}
+
+.chat-info-description{
+    font-size: 15px;
+    font-weight: 400;
+    color: grey;
+}
+
+.chat-info-location{
+    font-size: 10px;
+    color: #bfbfbf;
+}
+
+.chat-time{
+
+    color: grey;
+    font-size: 14px;
+}
+
+.message-right{
+
+    display: flex;
+    gap: 42px;
+    width: 20%;
+    align-items: center;
+    font-size: 31px;
+    color: grey;
+}
+
+.unread{
+
+    background-color: #0A66C2;
+    padding: 5px 11px;
+    border-radius: 50%;
+    color: white;
+}
+
+.hide-unread{
+    visibility: hidden;
+}
+
+.glass{
+    background-color: white;
+}
+
+.light{
+    background-color: #0fc841;
+    height: 7px;
+    width: 7px;
+    border-radius: 50%;
+    position: absolute;
+    top: 31px;
+    left: 42px;
+}
+
+

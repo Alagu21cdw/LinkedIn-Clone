@@ -1,0 +1,22 @@
+.snip{
+    
+    padding: 6px 24px;
+    background-color: rgb(230,240,247);
+    font-size: 15px;
+    font-weight: bold;
+    color: grey;
+    position: relative;
+}
+
+.endorsement{
+    
+    height: 21px;
+    width: 21px;
+    border: 1px solid #0A66C2;
+    border-radius: 50%;
+    position: absolute;
+    background-color: white;
+    text-align: center;
+    top: -10px;
+    right: -9px;
+}

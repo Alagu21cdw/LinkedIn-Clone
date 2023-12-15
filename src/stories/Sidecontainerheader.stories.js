@@ -1,4 +1,4 @@
-import { createSidecontainer } from "../components/sidecontainerheader/Sidecontainerheader.js";
+import { createSidecontainerheader } from "../components/sidecontainerheader/Sidecontainerheader.js";
 
 export default {
     title: 'LinkedIn/Sidecontainerheader',
@@ -6,7 +6,7 @@ export default {
     render: ({ ...args }) => {
       // You can either use a function to create DOM elements or use a plain html string!
       // return `<div>${label}</div>`;
-      return createSidecontainer({ ...args });
+      return createSidecontainerheader({ ...args });
     },
     argTypes: {
       container: { control: 'text' },
@@ -19,6 +19,20 @@ export default {
     args: {
       container: 'people',
       containertitle: 'People You May Know'
+    },
+  };
+
+  export const analytics = {
+    args: {
+      container: 'analytics',
+      containertitle: 'Analytics'
+    },
+  };
+
+  export const tools = {
+    args: {
+      container: 'Skills',
+      containertitle: 'Skills'
     },
   };
  

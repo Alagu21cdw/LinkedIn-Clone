@@ -9,6 +9,7 @@
 .hamburger{
     height: 50px;
     width: 37px;
+    cursor: pointer;
 }
 
 .line2{

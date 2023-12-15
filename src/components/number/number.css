@@ -1,0 +1,21 @@
+.number-container{
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 90px;
+}
+
+.number{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.number-info{
+    width: 100px;
+    margin: 0 auto;
+    text-align: center;
+    font-size: 15px;
+    color: #c3c4c3;
+}

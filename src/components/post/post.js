@@ -2,7 +2,11 @@ import FeatureimageStories from "../../stories/Featureimage.stories.js";
 import ParaStories from "../../stories/Para.stories.js";
 import PostHeaderStories from "../../stories/Postheader.stories.js";
 
-
+/**
+ * creating post
+ * @param {*} param0 
+ * @returns 
+ */
 export const createPost = ({bodycontent,type}) => 
 {
     const postContainer = document.createElement('div');
@@ -27,6 +31,14 @@ export const createPost = ({bodycontent,type}) =>
         }
         const clip = document.createElement('i');
         clip.className = 'fa fa-solid fa-angle-down right-arrow';
+        clip.addEventListener('click', () => {
+            featureContainer.scrollBy({
+                top: 0, 
+                left: 620, 
+                behavior: 'smooth'
+              });
+        })
+        
         postContainer.appendChild(featureContainer);
         postContainer.appendChild(clip);
         return postContainer;
@@ -111,9 +123,9 @@ export const createPost = ({bodycontent,type}) =>
         const save = document.createElement('i');
         save.className = 'fa fa-regular fa-bookmark post-icon';
         likesDiv.addEventListener('click', (event) => {
-            document.getElementsByClassName('likes')[0].classList.toggle('blue');
-            document.getElementsByClassName('likes')[1].classList.toggle('blue');
-            if(document.getElementsByClassName('likes')[1].classList.contains('blue')) {
+            console.log(event.target);
+            event.target.classList.toggle('blue');
+            if(event.target.classList.contains('blue')) {
                 likesCount.innerText = bodycontent.counts.likes+1;
             } else {
                 likesCount.innerText = bodycontent.counts.likes;

@@ -1,6 +1,10 @@
 
 
-
+/**
+ * creating button component
+ * @param {*} param0 
+ * @returns 
+ */
 export const createButton = ({
     primary,
     size,

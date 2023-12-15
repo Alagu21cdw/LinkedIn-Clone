@@ -1,0 +1,40 @@
+.more-item{
+    margin-bottom: 15px;
+    background-color: white;
+    margin-left: 0px;
+}
+
+.more-container{    
+    position: absolute;
+    top: 18.5rem;
+    right: 3rem;
+    z-index: 2;
+    display: none;
+}
+
+.more-text{
+
+    font-weight: 400;
+}
+
+.more-icon{
+
+    font-size: 22px;
+}
+
+.more-arrow{
+
+    font-size: 62px;
+    margin-left: 212px;
+    color: #ffffff;
+    /* background-color: red; */
+    position: relative;
+    top: 28px;
+    right: -19px;
+}
+
+.more-list{
+
+    background-color: white;
+    padding: 20px ;
+}

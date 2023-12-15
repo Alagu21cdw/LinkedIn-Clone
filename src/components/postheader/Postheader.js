@@ -1,5 +1,11 @@
 import ProfilepicStories from "../../stories/Profilepic.stories.js";
 
+
+/**
+ * creating post header
+ * @param {*} param0 
+ * @returns 
+ */
 export const createPostheader = ({content}) => {
     const postHeader = document.createElement('div');
     postHeader.className = 'post-header';
@@ -13,7 +19,7 @@ export const createPostheader = ({content}) => {
         plus.innerText = '+';
         if(content == 'About') {
             plus = document.createElement('i');
-            plus.className = 'fa fa-solid fa-pen plus';
+            plus.className = 'fa fa-solid fa-pen post-pen plus';
         }
         postHeader.appendChild(heading);
         postHeader.appendChild(plus);

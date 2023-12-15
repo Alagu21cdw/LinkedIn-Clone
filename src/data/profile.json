@@ -1,0 +1,157 @@
+{
+    "profile": {
+        "name": "Alagu",
+        "path": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg",
+        "description": "Backend developer UI/UX microservices spring springboot",
+        "connection": {
+          "numberInfo": {
+            "number": 123,
+            "text": "Connections"
+          }
+        },
+        "followers": {
+          "numberInfo": {
+            "number": 123,
+            "text": "followers"
+          }
+        },
+        "location": "london",
+        "phonenumber": "9218389712",
+        "emailid": "alagubalu@gmail.com",
+        "linkedinid": "alagulinked.com",
+        "behanceid": "alagubehance.com",
+        "skypeid": "alaguskype.com"
+      },
+      "bodycontents": [
+        {
+            "bodycontent": {
+              "posts": {
+                "numberInfo": {
+                  "number": 123,
+                  "text": "Posts views"
+                }
+              },
+              "vists": {
+                "numberInfo": {
+                  "number": 123,
+                  "text": "Vists"
+                }
+              },
+              "container": "analytics",
+              "containertitle": "Analytics"
+            },
+            "type": "analytics"
+          },
+          {
+            
+                "bodycontent": {
+                  "container": "language",
+                  "containertitle": "Language",
+                  "snips": [
+                    {
+                      "name": "English",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "German",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "Russian",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "Russian",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "Russian",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "Russian german",
+                      "endorsement": ""
+                    },
+                    {
+                      "name": "Russian",
+                      "endorsement": ""
+                    }
+                  ]
+                },
+                "type": "snips"
+              
+          },
+          {
+            
+            "bodycontent": {
+              "container": "skill",
+              "containertitle": "Skills",
+              "snips": [
+                {
+                  "name": "English",
+                  "endorsement": "1"
+                },
+                {
+                  "name": "German",
+                  "endorsement": "12"
+                },
+                {
+                  "name": "Russian",
+                  "endorsement": "10"
+                },
+                {
+                  "name": "Russian",
+                  "endorsement": "10"
+                },
+                {
+                  "name": "Russian",
+                  "endorsement": "10"
+                },
+                {
+                  "name": "Russian german",
+                  "endorsement": "10"
+                },
+                {
+                  "name": "Russian",
+                  "endorsement": "10"
+                }
+              ]
+            },
+            "type": "snips"
+          
+      },
+          {
+            "bodycontent": {
+              "container": "groups",
+              "containertitle": "My groups",
+              "groupInfo": [
+                {
+                  "name": "User Experience Design",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                },
+                {
+                  "name": "User Experience Design (Job posting or applications only)",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                },
+                {
+                  "name": "User Experience Design",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                },
+                {
+                  "name": "User Experience Design",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                },
+                {
+                  "name": "User Experience Design",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                },
+                {
+                  "name": "User Experience Design",
+                  "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhTwa4_Ys2cA9xaOC1iHNFIPrQw85LF8Bd_zhkKVB2GhH9eRw1AjtmFiA4TKqkTuZUtWaTTaIqjr-vrG8gWDoK-Y9UOakjRenTxLb58kqgeR96M-OOqj97V67CVRnNxUzt8QAQFH0npSiqStPtsY3SBcHx7berJKnzTCf5oNbIgbYCiNPafLMu_61M/s1600/difference-between-sea-and-ocean-Studyprobe.jpg"
+                }
+              ]
+            },
+            "type": "group"
+          }
+      ]
+}

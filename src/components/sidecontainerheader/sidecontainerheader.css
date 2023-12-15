@@ -3,8 +3,38 @@
     width: 100%;
     padding: 10px;
     border-bottom: 3px solid #EEF1F4;
+    justify-content: space-between;
+    position: relative;
+    padding-bottom: 20px;
 }
 
 .side-title{
     font-size: 20px;
+}
+
+.view-more{
+    font-size: 16px;
+    color: #c3c4c3;
+}
+
+.side-container-plus{
+    display: flex;
+    font-size: 41px;
+    font-weight: 100;
+    text-align: center;
+}
+
+.side-container-edit{
+    font-size: 20px;
+}
+
+.tools{
+    display: flex;
+    width: 20%;
+    justify-content: space-between;
+    color: #c3c4c3;
+    align-items: center;
+    position: absolute;
+    right: 0;
+    top: 0;
 }

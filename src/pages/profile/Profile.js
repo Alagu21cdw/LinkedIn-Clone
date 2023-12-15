@@ -2,6 +2,9 @@ import HeaderStories from "../../stories/Header.stories.js";
 import HamburgerStories, {profile as navtitle} from "../../stories/Hamburger.stories.js";
 import PostStories from "../../stories/Post.Stories.js";
 import PagenavStories, { profile } from "../../stories/Pagenav.stories.js";
+import ProfileStories from "../../stories/Profile.stories.js";
+import SidecontainerStories from "../../stories/Sidecontainer.stories.js";
+import { createMorebutton } from "../../components/morebutton/Morebutton.js";
 
 
 
@@ -23,3 +26,27 @@ fetch('../../data/profileinfo.json')
         
         }
     );
+
+    const right = document.getElementById('right');
+    fetch('../../data/profile.json')
+    .then((response) => response.json())
+    .then((json) => {
+        console.log(json)
+        right.appendChild(ProfileStories.render(json))
+        const bodycontents = json.bodycontents;
+            for(let i=0;i<bodycontents.length;i++)
+            {
+                right.appendChild(SidecontainerStories.render(bodycontents[i]))
+            }
+        }
+    );
+
+    right.appendChild(createMorebutton())
+
+        document.getElementById("overlay").addEventListener('click', () => {
+            document.getElementById("overlay").classList.remove('show');
+            document.getElementsByClassName("more-container")[0].classList.remove('showmore');
+        })
+      
+      
+

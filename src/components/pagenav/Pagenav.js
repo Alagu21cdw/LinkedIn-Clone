@@ -1,7 +1,12 @@
+import { HOME } from "../../constants/Home.constants.js";
 
 
 
-
+/**
+ * creating pagenav
+ * @param {*} param0 
+ * @returns 
+ */
 export const createPagenav = ({listItems}) => {
     
     const pageNav = document.createElement('nav');
@@ -21,15 +26,6 @@ export const createPagenav = ({listItems}) => {
         })
         list.appendChild(listItem);
         }
-        
-        // for(let i=0;i<items.length;i++) 
-        // {
-        //     console.log(items[i])
-        //     items[i].addEventListener('click', (event) => {
-        //         console.log(event);
-        //         items[i].classList.toggle('active');
-        //     })
-        // }
         pageNav.appendChild(list);
         return pageNav;
         
@@ -38,10 +34,10 @@ export const createPagenav = ({listItems}) => {
         sort.className = 'sort';
         const recent = document.createElement('h1');
         recent.className = 'recent';
-        recent.innerText = 'Recent';
+        recent.innerText = HOME.RECENT;
         const filter = document.createElement('h1');
         filter.className = 'filter';
-        filter.innerText = 'Sort by:';
+        filter.innerText = HOME.FILTER;
         sort.appendChild(filter);
         sort.appendChild(recent);
         pageNav.appendChild(sort);

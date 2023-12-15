@@ -1,7 +1,11 @@
 import ButtonStories, { Hallow } from "../../stories/Button.stories.js";
 import ProfilepicStories from "../../stories/Profilepic.stories.js";
 
-
+/**
+ * creating info
+ * @param {} param0 
+ * @returns 
+ */
 export const createInfo = ({info}) => {
 
     const infoSnippet = document.createElement('div');

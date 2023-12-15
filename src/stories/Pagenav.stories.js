@@ -25,3 +25,9 @@ export default {
         listItems: ["My profile","Posts","Articles","Documents"]
     },
   };
+
+  export const message = {
+    args: {
+        listItems: ["All messages","Unread","Archive"]
+    },
+  };

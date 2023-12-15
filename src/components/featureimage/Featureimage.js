@@ -2,7 +2,11 @@
 
 
 
-
+/**
+ * creating feature image
+ * @param {} param0 
+ * @returns 
+ */
 export const createFeatureimage = ({data}) => {
     const imageContainer = document.createElement('div');
     imageContainer.className = 'image-container';

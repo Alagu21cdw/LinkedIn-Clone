@@ -17,5 +17,60 @@
   
   .searchbar {
     display: flex;
+    position: relative;
+    z-index: 2;
+  }
+
+  .search-container{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+  }
+
+  .info-snippet.search-snippet{
+    border-top: 0.5px solid grey;
+    border-bottom: 0.5px solid grey;
+    padding: 10px 0px;
+    margin-top: 0px;
+
+  }
+
+  .search-result-content{
+    padding: 30px;
+    position: relative;
+  }
+
+  .viewmore{
+    float: right;
+    margin: 10px 0px;
+    color: #0A66C2;
+    cursor: pointer;
+    font-size: 18px;
+  }
+
+  .searchevent{
+    position: absolute;
+    width: 100%;
+    top: 56px;
+    z-index: 2;
+    background-color: white;
+    height: 45vh;
+    overflow: scroll;
+  }
+
+  .search-hide{
+    display: none;
+  }
+
+  .list-title{
+
+    position: absolute;
+    top: 18px;
+    /* margin: 0 auto; */
+    /* text-align: center; */
+    left: 44%;
+    background-color: white;
+    padding: 0px 5px;
   }
   
