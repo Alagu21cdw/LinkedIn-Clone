@@ -7,7 +7,7 @@ import ProfilepicStories from "../../stories/Profilepic.stories.js";
  * @returns 
  */
 export const createPostheader = ({content}) => {
-    const postHeader = document.createElement('div');
+    const postHeader = document.createElement('header');
     postHeader.className = 'post-header';
     if(typeof(content) == 'string')
     {

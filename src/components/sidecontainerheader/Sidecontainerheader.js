@@ -7,7 +7,7 @@
  */
 export const createSidecontainerheader = ({container,containertitle}) =>{
 
-    const header = document.createElement('div');
+    const header = document.createElement('header');
     header.className = 'side-header';
     const title = document.createElement('h1');
     title.className = 'side-title';

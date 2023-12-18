@@ -28,6 +28,7 @@ export const createSidecontainer = ({bodycontent,type}) => {
             numberContainer.appendChild(posts);
             numberContainer.appendChild(view);
             const graph = document.createElement('img');
+            graph.setAttribute('alt','graph')
             graph.src = '../../../public/assets/graph.png';
             graph.className = 'graph';
             container.appendChild(numberContainer);

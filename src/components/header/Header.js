@@ -10,6 +10,7 @@ export const createHeader = () => {
     const header = document.createElement('div');
     header.className = 'header';
     const logo = document.createElement('img');
+    logo.setAttribute('alt','logo')
     const linkhome = document.createElement('a')
     linkhome.href = PROFILE.HOME
     const linkmessage = document.createElement('a')

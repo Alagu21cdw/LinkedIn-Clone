@@ -6,7 +6,7 @@
  * @returns 
  */
 export const createChatlistheader = () => {
-    const header = document.createElement('div');
+    const header = document.createElement('header');
     header.className = 'chat-list-header';
     const search = document.createElement('div');
     search.className = 'chat-search'

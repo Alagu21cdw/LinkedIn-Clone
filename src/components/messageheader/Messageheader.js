@@ -7,7 +7,7 @@ import ProfilepicStories, { sea } from "../../stories/Profilepic.stories.js";
  * @returns 
  */
 export const createMessageheader = () => {
-    const infoSnippet = document.createElement('div');
+    const infoSnippet = document.createElement('header');
     infoSnippet.className = 'message-header';
     const left = document.createElement('div');
     left.className = 'left';

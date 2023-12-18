@@ -14,7 +14,7 @@ import { HOME } from "../../constants/Home.constants.js";
 export const createProfile = ({profile}) => {
     const profileContainer = document.createElement('div');
     profileContainer.className = 'profile-container';
-    const profileHeader = document.createElement('div');
+    const profileHeader = document.createElement('header');
     profileHeader.className = 'profile-header';
     const profileName = document.createElement('h1');
     profileName.className = 'profile-name';

@@ -17,6 +17,7 @@ export const createGroup = ({groupInfo}) => {
         const group = document.createElement('div');
         group.className = 'group';
         const image = document.createElement('img');
+        image.setAttribute('group image')
         image.src = groups[i].image;
         image.className = 'group-image';
         const text = document.createElement('p');

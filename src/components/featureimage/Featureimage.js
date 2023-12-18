@@ -11,6 +11,7 @@ export const createFeatureimage = ({data}) => {
     const imageContainer = document.createElement('div');
     imageContainer.className = 'image-container';
     const image = document.createElement('img');
+    image.setAttribute('alt','feature image')
     image.src = data.image;
     image.className = 'feature-image';
     const imageTitle = document.createElement('h1');

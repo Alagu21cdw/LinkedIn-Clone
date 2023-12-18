@@ -77,6 +77,7 @@ export const createPost = ({bodycontent,type}) =>
         tags.className = 'tags'
         tags.innerText = bodycontent.tags;
         const image = document.createElement('img');
+        image.setAttribute('alt','post image');
         image.className = 'post-image';
         image.src = bodycontent.image;
         if(bodycontent.text != "") {
@@ -89,7 +90,7 @@ export const createPost = ({bodycontent,type}) =>
             body.appendChild(image);
         }
         postContainer.appendChild(body);
-        const footer = document.createElement('div');
+        const footer = document.createElement('footer');
         footer.className = 'footer';
         const right = document.createElement('div');
         right.className = 'right';

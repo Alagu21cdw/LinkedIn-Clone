@@ -10,7 +10,7 @@ import { HOME } from "../../constants/Home.constants.js";
 export const createPara = ({para}) => {
     const paraElement = document.createElement('div');
     paraElement.className = 'para';
-    const header = document.createElement('div');
+    const header = document.createElement('header');
     header.className = 'para-header';
     const paraTitle = document.createElement('h1');
     paraTitle.className = 'para-title';
