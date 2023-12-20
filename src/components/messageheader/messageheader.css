@@ -4,8 +4,8 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    margin-left: 5px;
-    padding: 0px 22px;
+    margin-left: 0.313rem;
+    padding: 0px 1.375rem;
     border-bottom: 1px solid #c3c4c3;
 }
 
@@ -18,34 +18,34 @@
 .left{
     display: flex;
     width: 80%;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 
 .chat-info-name{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 500;
 }
 
 .connect{
-    width: 100px;
+    width: 6.25rem;
 }
 
 .chat-info-description{
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     color: grey;
 }
 
 .chat-info-location{
-    font-size: 10px;
+    font-size: 0.625rem;
     color: #bfbfbf;
 }
 
 .chat-time{
 
     color: grey;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .message-right{
@@ -54,14 +54,14 @@
     gap: 42px;
     width: 20%;
     align-items: center;
-    font-size: 31px;
+    font-size: 1.938rem;
     color: grey;
 }
 
 .unread{
 
     background-color: #0A66C2;
-    padding: 5px 11px;
+    padding: 0.313rem 11px;
     border-radius: 50%;
     color: white;
 }
@@ -80,7 +80,7 @@
     width: 7px;
     border-radius: 50%;
     position: absolute;
-    top: 31px;
+    top: 1.938rem;
     left: 42px;
 }
 

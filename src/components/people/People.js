@@ -22,11 +22,26 @@ export const createPeople = () => {
     showMore.className = 'show-more';
     showMore.innerText = HOME.VIEWALL;
     const arrow = document.createElement('i');
+    recommendations.setAttribute('tabindex','1')
     arrow.className = 'fa-solid fa-angle-down arrow';
     recommendations.appendChild(showMore);
     recommendations.appendChild(arrow);
     peopleContainer.appendChild(recommendations);
     recommendations.addEventListener('click', () => {
+        const infoarr = document.getElementsByClassName('hidesnippet');
+        for(let i=0;i<infoarr.length;i++)
+        {
+            console.log(infoarr[i])
+            infoarr[i].classList.toggle('showsnippet')
+        }
+        arrow.classList.toggle('invert');
+        if(showMore.innerText == HOME.VIEWALL) {
+            showMore.innerText = HOME.VIEWLESS;
+        } else  {
+            showMore.innerText = HOME.VIEWALL;
+        }
+    })
+    recommendations.addEventListener('keypress', () => {
         const infoarr = document.getElementsByClassName('hidesnippet');
         for(let i=0;i<infoarr.length;i++)
         {

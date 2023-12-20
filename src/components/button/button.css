@@ -4,8 +4,8 @@
 
 .hallow{
     color: #0A66C2;
-    border: 2px solid #0A66C2;
-    border-radius:2px;
+    border: 0.125rem solid #0A66C2;
+    border-radius:0.125rem;
     background-color: white;
     font-weight: bold;
 }
@@ -17,13 +17,13 @@
 }
 
 .small{
-    padding: 5px;
+    padding: 0.313rem;
 
 }
 
 .big{
-    padding: 15px 0px;
-    font-size: 20px;
-    border-radius: 4px;
+    padding: 0.938rem 0rem;
+    font-size: 1.25rem;
+    border-radius: 0.25rem;
     font-weight: bold;
 }

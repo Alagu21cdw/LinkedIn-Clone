@@ -55,6 +55,21 @@ export const createGroup = ({groupInfo}) => {
             show.innerText = PROFILE.SHOWALL+groups.length+')';
         }
     })
+    showall.addEventListener('keypress', () => {
+        const infoarr = document.getElementsByClassName('hide-group');
+        for(let i=0;i<infoarr.length;i++)
+        {
+            console.log(infoarr[i])
+            infoarr[i].classList.toggle('show-group')
+        }
+        arrow.classList.toggle('invert');
+        if(show.innerText == PROFILE.SHOWALL+groups.length+')') {
+            show.innerText = PROFILE.SHOWLESS;
+        } else  {
+            show.innerText = PROFILE.SHOWALL+groups.length+')';
+        }
+    })
+    showall.setAttribute('tabindex','1');
     groupContainer.appendChild(showall);
     return groupContainer;
 }

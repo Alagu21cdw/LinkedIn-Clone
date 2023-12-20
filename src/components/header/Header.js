@@ -9,6 +9,7 @@ import searchbarstory from '../../stories/Searchbar.stories.js';
 export const createHeader = () => {
     const header = document.createElement('div');
     header.className = 'header';
+    header.setAttribute('aria-label','header')
     const logo = document.createElement('img');
     logo.setAttribute('alt','logo')
     const linkhome = document.createElement('a')
@@ -27,9 +28,14 @@ export const createHeader = () => {
     icons.className = 'icons';
     const message = document.createElement('i');
     message.className = 'fa font-header fa-regular fa-message';
+    message.setAttribute('aria-label','message icon')
     const notification = document.createElement('i');
+    notification.setAttribute('aria-label','notification icon')
+    notification.setAttribute('tabindex','10')
     notification.className = 'fa font-header fa-regular fa-bell';
     const save = document.createElement('i');
+    save.setAttribute('tabindex','10')
+    save.setAttribute('aria-label','save icon')
     save.className = 'fa font-header fa-regular fa-bookmark';
     linkmessage.appendChild(message);
     icons.appendChild(save);

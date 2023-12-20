@@ -1,6 +1,6 @@
 .page-nav{
     width: 100%;
-    margin-bottom: 20px;
+    margin-bottom: 1.25rem;
 }
 
 .list{
@@ -11,10 +11,10 @@
 }
 .list-item{
     color: #bebebe;
-    font-size: 20px;
+    font-size: 1.25rem;
     font-weight: bold;
     cursor: pointer;
-    padding-bottom: 5px;
+    padding-bottom: 0.313rem;
 }
 
 .active{
@@ -32,4 +32,4 @@
     display: flex;
     align-items: center;
     justify-content: flex-end;
-    margin-right: 12px;}
+    margin-right: 0.75rem;}

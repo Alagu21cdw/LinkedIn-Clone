@@ -4,12 +4,12 @@
     justify-content: space-between;
     align-items: center;
     height: 5rem;
-    padding-left: 10px;
+    padding-left: 0.625rem;
 }
 
 .chat-info-snippet:hover{
     background-color: rgb(239,241,244);
-    border-left: 3px solid #0A66C2;
+    border-left: 0.188rem solid #0A66C2;
 }
 
 .chat-common-info{
@@ -19,34 +19,34 @@
 .left{
     display: flex;
     width: 80%;
-    gap: 20px;
+    gap: 1.25rem;
     align-items: center;
 }
 
 .chat-info-name{
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 500;
 }
 
 .connect{
-    width: 100px;
+    width: 6.25rem;
 }
 
 .chat-info-description{
-    font-size: 15px;
+    font-size: 0.938rem;
     font-weight: 400;
     color: grey;
 }
 
 .chat-info-location{
-    font-size: 10px;
+    font-size: 0.625rem;
     color: #bfbfbf;
 }
 
 .chat-time{
 
     color: grey;
-    font-size: 14px;
+    font-size: 0.875rem;
 }
 
 .chat-right{
@@ -54,14 +54,14 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 0.625rem;
     width: 20%;
 }
 
 .unread{
 
     background-color: #0A66C2;
-    padding: 6px 10px;
+    padding: 0.375rem 0.625rem;
     border-radius: 50%;
     font-size: 0.8rem;
     color: white;

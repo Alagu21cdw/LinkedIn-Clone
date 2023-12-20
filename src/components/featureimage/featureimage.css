@@ -1,31 +1,31 @@
 .image-container{
     width: 25%;
     background-color: rgb(239, 241, 244);
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 .feature-image{
 
-    height: 159px;
-    width: 236px;
+    height: 9.938rem;
+    width: 14.75rem;
     object-fit: contain;
-    border-radius: 5px;
+    border-radius: 0.313rem;
 }
 
 .image-title{
-    font-size: 18px;
-    margin-left: 8px;
+    font-size: 1.125rem;
+    margin-left: 0.5rem;
     color: #0A66C2;
-    margin-top: 3px;
+    margin-top: 0.188rem;
     text-overflow: ellipsis;
     overflow: hidden;
     white-space: nowrap;
 }
 
 .image-description{
-    font-size: 14px;
-    margin-left: 8px;
+    font-size: 0.875rem;
+    margin-left: 0.5rem;
     color: grey;
-    margin-top: 5px;
-    margin-bottom: 3px;
+    margin-top: 0.313rem;
+    margin-bottom: 0.188rem;
 }

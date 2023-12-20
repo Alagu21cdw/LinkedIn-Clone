@@ -35,6 +35,11 @@ export const createProfile = ({profile}) => {
     profileLocation.innerText = profile.location;
     const more = document.createElement('i');
     more.className = 'fa fa-solid fa-ellipsis-vertical more';
+    more.setAttribute('tabindex','1')
+    more.addEventListener('keypress',() => {
+        document.getElementsByClassName('more-container')[0].classList.add('showmore')
+        document.getElementById('overlay').classList.add('show');
+    })
     more.addEventListener('click', () => {
         document.getElementsByClassName('more-container')[0].classList.add('showmore')
         document.getElementById('overlay').classList.add('show');

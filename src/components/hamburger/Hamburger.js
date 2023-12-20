@@ -7,6 +7,8 @@ export const createHamburger = ({navtitle}) => {
     const outterDiv = document.createElement('div');
     outterDiv.className = 'outter';
     const hamburger = document.createElement('div');
+    hamburger.setAttribute('tabindex','1')
+    hamburger.setAttribute('aria-expanded','false')
     const title = document.createElement('div');
     const wrapperDiv = document.createElement('div');
     wrapperDiv.className = 'wrapper';
@@ -24,6 +26,13 @@ export const createHamburger = ({navtitle}) => {
     hamburger.appendChild(line3);
     const sidenavbar = showMenu();
     hamburger.addEventListener('click',() => {
+        hamburger.setAttribute('aria-expanded','true')
+        line2.classList.toggle('line2');
+        line3.classList.toggle('line3');
+        sidenavbar.classList.toggle('hide');
+    })
+    hamburger.addEventListener('keypress',() => {
+        hamburger.setAttribute('aria-expanded','true')
         line2.classList.toggle('line2');
         line3.classList.toggle('line3');
         sidenavbar.classList.toggle('hide');
@@ -48,6 +57,7 @@ function showMenu(){
             let items = Object.values(json.menu[i]);
             for(var j=0; j<items[0].length; j++) {
                 const listItem = document.createElement('li');
+                listItem.setAttribute('tabindex','1')
                 listItem.innerText = items[0][j];
                 menu.appendChild(listItem);
             }

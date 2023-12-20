@@ -1,7 +1,7 @@
 .para{
     display: flex;
     flex-direction: column;
-    gap: 30px;
+    gap: 1.875rem;
     position: relative;
 }
 
@@ -11,12 +11,12 @@
 }
 
 .para-title{
-    font-size: 23px;
+    font-size: 1.438rem;
     color: #0A66C2;
 }
 
 .para-location{
-    font-size: 23px;
+    font-size: 1.438rem;
     color: grey;
 }
 
@@ -28,21 +28,21 @@
 
 .para-left{
     color: #bebebe;
-    font-size: 10px;
+    font-size: 0.625rem;
     width: 37%;
 }
 
 .para-content{
     color: grey;
-    font-size: 18px;
+    font-size: 1.125rem;
     font-weight: bold;
 }
 
 .pen{
     position: absolute;
     color: grey;
-    right: -8px;
-    top: 5px;
+    right: -0.5rem;
+    top: 0.313rem;
 }
 
 .para-hide{

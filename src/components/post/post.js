@@ -30,8 +30,16 @@ export const createPost = ({bodycontent,type}) =>
             featureContainer.appendChild(FeatureimageStories.render(imagearr[i]))
         }
         const clip = document.createElement('i');
+        clip.setAttribute('tabindex','1')
         clip.className = 'fa fa-solid fa-angle-down right-arrow';
         clip.addEventListener('click', () => {
+            featureContainer.scrollBy({
+                top: 0, 
+                left: 620, 
+                behavior: 'smooth'
+              });
+        })
+        clip.addEventListener('keypress', () => {
             featureContainer.scrollBy({
                 top: 0, 
                 left: 620, 
@@ -124,6 +132,16 @@ export const createPost = ({bodycontent,type}) =>
         const save = document.createElement('i');
         save.className = 'fa fa-regular fa-bookmark post-icon';
         likesDiv.addEventListener('click', (event) => {
+            console.log(event.target);
+            event.target.classList.toggle('blue');
+            if(event.target.classList.contains('blue')) {
+                likesCount.innerText = bodycontent.counts.likes+1;
+            } else {
+                likesCount.innerText = bodycontent.counts.likes;
+            }
+        })
+        likesDiv.setAttribute('tabindex','1')
+        likesDiv.addEventListener('keypress', (event) => {
             console.log(event.target);
             event.target.classList.toggle('blue');
             if(event.target.classList.contains('blue')) {

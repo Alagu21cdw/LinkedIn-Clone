@@ -7,15 +7,15 @@
 }
 
 .number{
-    width: 100px;
+    width: 6.25rem;
     margin: 0 auto;
     text-align: center;
 }
 
 .number-info{
-    width: 100px;
+    width: 6.25rem;
     margin: 0 auto;
     text-align: center;
-    font-size: 15px;
+    font-size: 0.938rem;
     color: #c3c4c3;
 }

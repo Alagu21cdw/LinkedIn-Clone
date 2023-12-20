@@ -1,15 +1,15 @@
 .logo{
-    height: 55px;
-    width: 187px;
+    height: 3.438rem;
+    width: 11.688rem;
     display: inline;
     object-fit: cover;
 }
 
 .header{
     display: flex;
-    padding: 20px 80px;
+    padding: 1.25rem 5rem;
     border-bottom: 1px solid #0A66C2;
-    margin-bottom: 30px;
+    margin-bottom: 1.875rem;
 }
 
 .search-bar-div{
@@ -20,19 +20,19 @@
 .font-header{
     background-color: white;
     color: #C3C4C3;
-    padding: 10px;
-    font-size: 30px;
-    border-radius: 0px 5px 5px 0px;
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    border-radius: 0px 0.313rem 0.313rem 0px;
 }
 
 .icons{
-    margin-right: 47px;
+    margin-right: 2.938rem;
     display: flex;
-    gap: 13px;
+    gap: 0.813rem;
 }
 
 .profile{
-    height: 55px;
-    width: 55px;
+    height: 3.438rem;
+    width: 3.438rem;
     object-fit: cover;
 }

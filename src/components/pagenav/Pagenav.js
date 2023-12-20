@@ -19,7 +19,13 @@ export const createPagenav = ({listItems}) => {
         const listItem = document.createElement('li');
         listItem.className = 'list-item';
         listItem.innerText = listItems[i];
+        listItem.setAttribute('tabindex','1')
         listItem.addEventListener('click', (event) => {
+            remove()
+            listItem.classList.toggle('active');
+            
+        })
+        listItem.addEventListener('keypress', (event) => {
             remove()
             listItem.classList.toggle('active');
             

@@ -2,7 +2,7 @@
 
     display: flex;
     align-items: center;
-    gap: 33px;
+    gap: 2.063rem;
     border-bottom: 1px solid #c3c4c3;
     width: 94%;
     justify-content: space-between;
@@ -17,11 +17,11 @@
 .chat-searchbar{
     background-color: #EEF1F4;
     border: none;
-    border-radius: 0px 5px 5px 0px;
+    border-radius: 0px 0.313rem 0.313rem 0px;
     width: 100%;
-    padding: 10px;
-    font-size: 30px;
-    padding-bottom: 10px;
+    padding: 0.625rem;
+    font-size: 1.875rem;
+    padding-bottom: 0.625rem;
 
 }
 
@@ -32,7 +32,7 @@
 .chat-magnify{
 
 
-    border-radius: 5px 0px 0px 5px;
+    border-radius: 0.313rem 0px 0px 0.313rem;
 }
 
 .chat-edit{

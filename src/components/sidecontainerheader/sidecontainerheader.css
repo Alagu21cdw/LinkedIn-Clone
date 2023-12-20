@@ -1,31 +1,31 @@
 .side-header{
     display: flex;
     width: 100%;
-    padding: 10px;
-    border-bottom: 3px solid #EEF1F4;
+    padding: 0.625rem;
+    border-bottom: 0.188rem solid #EEF1F4;
     justify-content: space-between;
     position: relative;
-    padding-bottom: 20px;
+    padding-bottom: 1.25rem;
 }
 
 .side-title{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .view-more{
-    font-size: 16px;
+    font-size: 1rem;
     color: #c3c4c3;
 }
 
 .side-container-plus{
     display: flex;
-    font-size: 41px;
+    font-size: 2.563rem;
     font-weight: 100;
     text-align: center;
 }
 
 .side-container-edit{
-    font-size: 20px;
+    font-size: 1.25rem;
 }
 
 .tools{
